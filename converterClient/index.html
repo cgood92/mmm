@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MMM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <body>
+        <section class='searchPanel'>
+            <div class='form__row'>
+                <label for='matrixPage' class='form__row__label inline'>By Matrix Page #</label>
+                <form id='matrixPageNum'>
+                    <input type='text' name='matrixPage' id='matrixPage' />
+                    <p class='form__row__example inline tabbed'>For citation <span class='searchPanel__citationExample'>Trial matrix, 70</span> enter "70"</p>
+                </form>
+            </div>
+            <div class='form__row transcriptionMenu'>
+                <label class='form__row__label inline'>By Transcription</label>
+                <form id='transcriptionMenu'>
+                    <select name="level1" id="level1">
+                        <option>Loading...</option>
+                    </select>
+                </form>
+                <div class='form__row__example  tabbed'>For citation <span class='searchPanel__citationExample'>JDL. 1-BS 3:126</span> choose "Trial 1", "Boreman Shorthand", "Book 3", and enter "126"</div>
+            </div>
+        </section>
+        <section class='converter'>
+            <h2>CSV -> JSON converter</h2>
+            <textarea id="csv" rows="7" cols="120"></textarea>
+            <button id="csv_submit">Convert</button>
+            <details class="instructions" open>
+                <summary>Instructions</summary>
+                <p>Copy and paste in the rows from the excel document, such as shown in the image below, and press 'Convert'</p>
+                <img src='https://trello-attachments.s3.amazonaws.com/552ecd15da41b2c2bcc285c7/57fbb02e5d398efc24c30ca1/19afe81103291d05720eeb33a9b1140c/MMM_SiteMap_and_PDF_Matrix-1_and_MMM.png' />
+            </details>
+        </section>
+    </body>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script src="js/index.js"></script>
+</body>
+</html>

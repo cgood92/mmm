@@ -1,0 +1,73 @@
+.inline {
+    display: inline-block;
+}
+
+$gray: rgb(102, 102, 102);
+
+.searchPanel {
+    .transcriptionMenu div.inline {
+        margin: 0 1rem;
+    }
+    .form__row {
+        &__label {
+            color: $gray;
+            width: 200px;
+            text-transform: uppercase;
+        }
+        &__example {
+            font-size: smaller;
+            .searchPanel__citationExample {
+                color: $gray;
+                font-style: italic;
+            }
+            &.tabbed {
+                margin-left: 2rem;
+            }
+        }
+    }
+    
+    form {
+        margin-left: 1rem;
+    }
+    
+    br {
+        display: none;
+    }
+    p {
+        display: inline;
+    }
+}
+
+.converter {
+    .instructions {
+        summary {
+            font-weight: bold;
+        }
+        background-color: #D3D3D3;
+        margin: .5rem;
+        padding: .5rem;
+        img {
+            max-width: 80%;
+            border: 2px solid black;
+        }
+    }
+    button {
+        font-weight: bold;
+        font-size: 18pt;
+    }
+    background-color: #40E0D0;
+}
+
+.searchPanel, .converter {
+    padding: 1rem .5rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin: 0 0 1rem;
+}
+
+h3 {
+    display: inline-block;
+}

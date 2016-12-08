@@ -1,0 +1,65 @@
+.inline {
+  display: inline-block;
+}
+
+.searchPanel .transcriptionMenu div.inline {
+  margin: 0 1rem;
+}
+.searchPanel .form__row__label {
+  color: #666666;
+  width: 200px;
+  text-transform: uppercase;
+}
+.searchPanel .form__row__example {
+  font-size: smaller;
+}
+.searchPanel .form__row__example .searchPanel__citationExample {
+  color: #666666;
+  font-style: italic;
+}
+.searchPanel .form__row__example.tabbed {
+  margin-left: 2rem;
+}
+.searchPanel form {
+  margin-left: 1rem;
+}
+.searchPanel br {
+  display: none;
+}
+.searchPanel p {
+  display: inline;
+}
+
+.converter {
+  background-color: #40E0D0;
+}
+.converter .instructions {
+  background-color: #D3D3D3;
+  margin: .5rem;
+  padding: .5rem;
+}
+.converter .instructions summary {
+  font-weight: bold;
+}
+.converter .instructions img {
+  max-width: 80%;
+  border: 2px solid black;
+}
+.converter button {
+  font-weight: bold;
+  font-size: 18pt;
+}
+
+.searchPanel, .converter {
+    padding: 1rem .5rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    margin: 0 0 1rem;
+}
+
+h3 {
+    display: inline-block;
+}
